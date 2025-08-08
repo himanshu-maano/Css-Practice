@@ -1,0 +1,40 @@
+/* #outer {
+    border: 2px solid black;
+    background-color: green;
+    height: 300px;
+    width: 300px;
+    font-size: 20px;
+    margin: 0em 0em 2em 0em;
+}
+
+#inner {
+    border: 2px solid black;
+    background-color: pink;
+    height: 35%;
+    width: 35%;
+    font-size: 0.5em;
+    padding: 5em;
+    margin: 3.5em;
+}
+
+button {
+    border: 2px solid black;
+    border-radius: 15px;
+    background-color: green;
+    color: cornflowerblue;
+    font-size: 40px;
+    padding: 0.1em 0.5em;
+    margin: 1em;
+} */
+
+/* draw back of em in nested as it getting shifted with respect to its parent*/
+html { /*root element*/
+    font-size: 50px;
+}
+section {
+    font-size: 40px;
+}
+
+div {
+    font-size: 0.3rem;
+}

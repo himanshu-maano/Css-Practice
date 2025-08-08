@@ -1,0 +1,23 @@
+#box {
+    height: 150px;
+    width: 300px;
+    background-color: grey;
+    border: 5px dotted black;
+    margin: 20px 1em 40px 3em;
+    padding: 1em;
+}
+
+.box {
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+    margin: 0em 1em;
+    border-radius: 50%;
+    display: inline-block;
+    background-color: teal;
+}
+
+li {
+    display: inline;
+    margin: 1rem;
+}
